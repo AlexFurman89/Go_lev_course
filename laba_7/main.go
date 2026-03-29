@@ -30,7 +30,7 @@ func main() {
 					return c.Status(fiber.StatusInternalServerError).SendString("Internal server error")
 				}
 
-				return c.Send(data) // ✅ правильно
+				return c.Send(data) 
 			}
 		}
 
